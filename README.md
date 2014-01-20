@@ -3,14 +3,16 @@ SLNavigationbarManager
 
 滚动view根据滚动位置是否全屏显示
 
+
+
+#How to use:#
 pod 'SLNavigationBarManager', '~> 0.0.1'
 
 
-How to use:
+
 In you view Controller:
 
 @property (nonatomic, strong) SLNavigationBarManager *navigationBarManager;
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
