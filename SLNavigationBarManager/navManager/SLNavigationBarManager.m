@@ -34,7 +34,7 @@
             [self.viewController.navigationController.navigationBar setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor colorWithRed:color[0] green:color[1] blue:color[2] alpha:alpha]}];
             self.viewController.navigationController.navigationBar.tintColor = [UIColor colorWithRed:color[0] green:color[1] blue:color[2] alpha:alpha];
         }
-       
+        
     }
 }
 

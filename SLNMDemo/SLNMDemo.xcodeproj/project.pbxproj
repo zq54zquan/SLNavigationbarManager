@@ -21,6 +21,7 @@
 		A9BD1C8D188CF61C005120A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9BD1C6F188CF61C005120A5 /* UIKit.framework */; };
 		A9BD1C95188CF61C005120A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9BD1C93188CF61C005120A5 /* InfoPlist.strings */; };
 		A9BD1C97188CF61C005120A5 /* SLNMDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD1C96188CF61C005120A5 /* SLNMDemoTests.m */; };
+		A9BD1CA3188CF635005120A5 /* SLNavigationBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9BD1CA2188CF635005120A5 /* SLNavigationBarManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		A9BD1C92188CF61C005120A5 /* SLNMDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SLNMDemoTests-Info.plist"; sourceTree = "<group>"; };
 		A9BD1C94188CF61C005120A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A9BD1C96188CF61C005120A5 /* SLNMDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLNMDemoTests.m; sourceTree = "<group>"; };
+		A9BD1CA1188CF635005120A5 /* SLNavigationBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLNavigationBarManager.h; sourceTree = "<group>"; };
+		A9BD1CA2188CF635005120A5 /* SLNavigationBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLNavigationBarManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		A9BD1C71188CF61C005120A5 /* SLNMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A9BD1CA0188CF635005120A5 /* navManager */,
 				A9BD1C7A188CF61C005120A5 /* SLNMAppDelegate.h */,
 				A9BD1C7B188CF61C005120A5 /* SLNMAppDelegate.m */,
 				A9BD1C7D188CF61C005120A5 /* Main.storyboard */,
@@ -150,6 +154,16 @@
 				A9BD1C93188CF61C005120A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9BD1CA0188CF635005120A5 /* navManager */ = {
+			isa = PBXGroup;
+			children = (
+				A9BD1CA1188CF635005120A5 /* SLNavigationBarManager.h */,
+				A9BD1CA2188CF635005120A5 /* SLNavigationBarManager.m */,
+			);
+			name = navManager;
+			path = ../../SLNavigationBarManager/navManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,6 +266,7 @@
 			files = (
 				A9BD1C7C188CF61C005120A5 /* SLNMAppDelegate.m in Sources */,
 				A9BD1C82188CF61C005120A5 /* SLNMViewController.m in Sources */,
+				A9BD1CA3188CF635005120A5 /* SLNavigationBarManager.m in Sources */,
 				A9BD1C78188CF61C005120A5 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +476,7 @@
 				A9BD1C9C188CF61C005120A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A9BD1C9D188CF61C005120A5 /* Build configuration list for PBXNativeTarget "SLNMDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +485,7 @@
 				A9BD1C9F188CF61C005120A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
