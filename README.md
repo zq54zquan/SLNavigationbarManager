@@ -8,7 +8,7 @@ pod 'SLNavigationBarManager', '~> 0.0.1'
 
 How to use:
 In you view Controller:
-#import "SLNavigationBarManager.h"
+
 @property (nonatomic, strong) SLNavigationBarManager *navigationBarManager;
 
 - (void)viewDidLoad
