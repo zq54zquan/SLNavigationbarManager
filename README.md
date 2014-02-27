@@ -4,14 +4,13 @@ SLNavigationbarManager
 滚动view根据滚动位置是否全屏显示
 
 
+# Installation
+`pod 'SLNavigationBarManager', '~> 0.0.1'`
 
-#How to use:#
-pod 'SLNavigationBarManager', '~> 0.0.1'
-
-
-
+# Usage
 In you view Controller:
 
+```objective-c
 @property (nonatomic, strong) SLNavigationBarManager *navigationBarManager;
 - (void)viewDidLoad
 {
@@ -29,3 +28,4 @@ In you view Controller:
     [super viewWillDisappear:animated];
     [self.navigationBarManager pushedOrPulled];
 }
+```
